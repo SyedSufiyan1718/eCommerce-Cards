@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    max-height: fit-content;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: Arial;
+}
+
+.main-heading {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
+    font-size: larger;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    text-shadow: 2px 4px 4px rgb(95, 94, 94);
+    cursor: pointer;
+}
+
+.main-heading h1 {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    text-align: center;
+    border-radius: 35px;
+    box-shadow: 8px 10px 8px rgb(138, 0, 0);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.main-heading h1:hover {
+    background-color: rgb(87, 0, 0);
+    box-shadow: 8px 10px 8px rgb(126, 5, 79);
+    color: white;
+    transform: scale(1.1);
+    text-shadow: 2px 4px 4px rgb(248, 106, 111);
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+/* First Card Start */
+
+.card-div {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-radius: 12px;
+    padding: 12px;
+    background-color: rgb(211, 75, 75);
+    box-shadow: 8px 8px 4px rgb(95, 0, 0);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.headphone-img-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.headphone-img-div img {
+    width: 230px;
+    height: 250px;
+    cursor: pointer;
+}
+
+.content-div h2 {
+    font-size: 27px;
+    font-weight: bold;
+    font-style: oblique;
+    cursor: text;
+    margin-bottom: 10px;
+}
+
+.content-div p {
+    font-size: 15px;
+    cursor: text;
+}
+
+.btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-div button {
+    width: calc(50% - 4px);
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 6px 2px 6px 2px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 2px 4px black;
+    cursor: pointer;
+}
+
+/* First Card End */
+
+
+/* Second Card Start */
+
+.mouseCard-div {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 30px;
+    padding: 12px;
+    background: linear-gradient(0deg, rgb(248, 106, 111) 0%, rgb(195, 28, 81) 100%);
+    box-shadow: 8px 8px 4px rgb(98, 31, 34);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.mouseContent-div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 16px;
+    color: white;
+}
+
+.mouseContent-div h2 {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: oblique;
+    cursor: text;
+    text-align: center;
+}
+
+.mouseContent-div p {
+    font-size: 12px;
+    cursor: text;
+    text-align: center;
+}
+
+.mouse-img-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mouse-img-div img {
+    width: 180px;
+    height: 160px;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 10%;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+.mouse-img-div p {
+    background-color: rgb(255, 230, 0);
+    padding: 8px;
+    height: fit-content;
+    position: absolute;
+    left: 82%;
+    font-size: small;
+    font-weight: bolder;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 30px;
+    box-shadow: 4px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.mouseBtn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mouseBtn-div button {
+    width: 50%;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 8px 2px 8px 2px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Second Card End */
+
+/*Third Card Start*/
+.earbudCard-div {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    background-color: white;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.earbud-Img-Div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.earbud-Img-Div img {
+    cursor: pointer;
+}
+
+.earbudContent-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.earbudContent-div h2 {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.earbudContent-div p {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+.earbudContent-div span {
+    font-size: 20px;
+    color: rgb(148, 2, 2);
+    font-weight: bolder;
+}
+
+.earbudBtn-div button {
+    width: 100%;
+    padding: 12px;
+    outline: none;
+    border: none;
+    background-color: rgb(148, 2, 2);
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+
+.card-div:hover,
+.mouseCard-div:hover,
+.earbudCard-div:hover {
+    transform: scale(1.1);
+    z-index: 1;
+}
